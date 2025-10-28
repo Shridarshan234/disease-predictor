@@ -1,0 +1,28 @@
+# virtual environment
+.venv/
+venv/
+
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# environment & secrets
+.env
+*.env
+
+# logs & local db
+*.log
+db.sqlite3
+
+# compiled / model artifacts / data
+DiseasePredictor/model.pkl
+DiseasePredictor/columns.pkl
+DiseasePredictor/label_encoder.pkl
+DiseasePredictor/Training.csv
+
+# IDE / OS files
+.vscode/
+.DS_Store
+Thumbs.db
