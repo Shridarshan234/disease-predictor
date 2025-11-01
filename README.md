@@ -18,5 +18,5 @@ POST /api/disease/predict/ → predict disease; body example: {"symptoms":["itch
 POST /api/disease/insertpd/ → (optional) insert CSV records into DB for admin view
 Setup (local)
 Clone:
-git clone https://github.com/aryanraw02/disease-predictor.git
+git clone https://github.com/Shridarshan234/disease-predictor.git
 cd disease-predictor
