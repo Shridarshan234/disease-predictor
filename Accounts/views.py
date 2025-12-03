@@ -1,7 +1,8 @@
+# Accounts/views.py
 from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
-from .serializers import RegisterSerializer, LoginSerializer, AppUserSerializer
+from .serializers import RegisterSerializer, LoginSerializer, AppUserSerializer, DoctorProfileSerializer
 from rest_framework.authtoken.models import Token
 from rest_framework.permissions import AllowAny, IsAuthenticated
 from rest_framework.decorators import (
@@ -10,6 +11,10 @@ from rest_framework.decorators import (
     authentication_classes,
 )
 from rest_framework.authentication import TokenAuthentication
+
+# DRF generics for the doctors list view
+from rest_framework.generics import ListAPIView
+from .models import DoctorProfile
 
 class RegisterView(APIView):
     permission_classes = [AllowAny]
@@ -42,3 +47,25 @@ def me(request):
     """
     user = request.user
     return Response(AppUserSerializer(user).data)
+
+# -------------------------
+# New: Read-only list endpoint for doctors (safe)
+# URL: /api/accounts/doctors/?specialization=Radiologist
+# If specialization param is empty or "All" -> returns all doctors
+# Uses your existing DoctorProfile model and DoctorProfileSerializer
+# -------------------------
+class DoctorListView(ListAPIView):
+    """
+    Returns a list of doctors. Optional query param:
+      - specialization (string): filters doctors by specialization (icontains)
+    """
+    serializer_class = DoctorProfileSerializer
+    queryset = DoctorProfile.objects.all()
+
+    def get_queryset(self):
+        qs = super().get_queryset()
+        specialization = self.request.query_params.get("specialization", "").strip()
+        if specialization and specialization.lower() != "all":
+            # filter by specialization field (case-insensitive contains)
+            qs = qs.filter(specialization__icontains=specialization)
+        return qs

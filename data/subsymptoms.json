@@ -1,0 +1,905 @@
+{
+  "itching": [
+    "Localized itching",
+    "Generalized itching",
+    "Night-time worsening",
+    "Itching with redness",
+    "Itching with rash"
+  ],
+  "skin_rash": [
+    "Red flat patches",
+    "Raised itchy bumps",
+    "Blistering rash",
+    "Rash spreading over time",
+    "Rash with peeling skin"
+  ],
+  "shivering": [
+    "Mild shivering",
+    "Severe shaking chills",
+    "Shivering with fever",
+    "Cold-induced shivering",
+    "Intermittent shivering"
+  ],
+  "chills": [
+    "Chills with fever",
+    "Chills without fever",
+    "Chills with sweating",
+    "Recurrent chills",
+    "Sudden onset chills"
+  ],
+  "joint_pain": [
+    "Pain with swelling",
+    "Morning stiffness",
+    "Pain on movement",
+    "Redness over joint",
+    "Symmetric joint pain"
+  ],
+  "stomach_pain": [
+    "Upper abdominal pain",
+    "Lower abdominal pain",
+    "Cramping pain",
+    "Burning stomach pain",
+    "Pain after eating"
+  ],
+  "acidity": [
+    "Burning chest sensation",
+    "Acid reflux after meals",
+    "Morning acidity",
+    "Acidity with burping",
+    "Acidity disturbing sleep"
+  ],
+  "ulcers_on_tongue": [
+    "Single painful ulcer",
+    "Multiple small ulcers",
+    "Red border ulcers",
+    "Ulcers with burning",
+    "Ulcers with swelling"
+  ],
+  "muscle_wasting": [
+    "Weak muscle mass",
+    "Visible thinning of muscles",
+    "Progressive muscle loss",
+    "Asymmetric muscle wasting",
+    "Muscle wasting with weakness"
+  ],
+  "vomiting": [
+    "Single episode vomiting",
+    "Repeated vomiting",
+    "Vomiting with bile",
+    "Vomiting with blood",
+    "Projectile vomiting"
+  ],
+  "burning_micturition": [
+    "Pain during urination",
+    "Burning at start of urination",
+    "Burning at end of urination",
+    "Burning with fever",
+    "Burning with urgency"
+  ],
+  "spotting_ urination": [
+    "Small drops of urine",
+    "Frequent small urination",
+    "Spotting with burning",
+    "Spotting with urgency",
+    "Spotting with pelvic pain"
+  ],
+  "fatigue": [
+    "Chronic fatigue",
+    "Sudden exhaustion",
+    "Fatigue after exertion",
+    "Morning fatigue",
+    "Fatigue with headache"
+  ],
+  "weight_gain": [
+    "Gradual weight gain",
+    "Sudden weight gain",
+    "Weight gain with swelling",
+    "Weight gain with appetite increase",
+    "Central (abdominal) weight gain"
+  ],
+  "anxiety": [
+    "Restlessness",
+    "Fear episodes",
+    "Chest tightness with anxiety",
+    "Palpitations with anxiety",
+    "Sleep disturbance"
+  ],
+  "cold_hands_and_feets": [
+    "Cold fingers",
+    "Cold toes",
+    "Cold with numbness",
+    "Cold with tingling",
+    "Cold with pale skin"
+  ],
+  "mood_swings": [
+    "Sudden emotional shifts",
+    "Anger bursts",
+    "Crying episodes",
+    "Irritable mood swings",
+    "Hormonal mood variations"
+  ],
+  "weight_loss": [
+    "Unintentional weight loss",
+    "Sudden weight drop",
+    "Loss with appetite loss",
+    "Loss despite eating well",
+    "Gradual weight reduction"
+  ],
+  "restlessness": [
+    "Inability to stay still",
+    "Night-time restlessness",
+    "Restlessness with worry",
+    "Restlessness with palpitations",
+    "Mild agitation"
+  ],
+  "lethargy": [
+    "Low physical activity",
+    "Inability to perform tasks",
+    "Day-time sleepiness",
+    "Slow movements",
+    "Lethargy with weakness"
+  ],
+  "patches_in_throat": [
+    "White throat patches",
+    "Red inflamed patches",
+    "Painful patches",
+    "Patches with fever",
+    "Patches causing swallowing difficulty"
+  ],
+  "irregular_sugar_level": [
+    "High post-meal sugars",
+    "Low blood sugar spells",
+    "Fluctuating sugars",
+    "Sugar imbalance with dizziness",
+    "Sugar spikes after meals"
+  ],
+  "cough": [
+    "Dry cough",
+    "Wet productive cough",
+    "Night-time cough",
+    "Cough with wheeze",
+    "Cough with blood"
+  ],
+  "high_fever": [
+    "Fever > 101°F",
+    "Fever with chills",
+    "Fever with sweating",
+    "Continuous fever",
+    "Fever worsening at night"
+  ],
+  "sunken_eyes": [
+    "Mild sunken appearance",
+    "Severe dehydration look",
+    "Dark circles with sunken eyes",
+    "Sunken eyes with fatigue",
+    "Deep-set eye appearance"
+  ],
+  "breathlessness": [
+    "Shortness of breath at rest",
+    "Breathlessness on exertion",
+    "Sudden breathlessness",
+    "Breathlessness with chest pain",
+    "Breathlessness with wheeze"
+  ],
+  "sweating": [
+    "Excessive sweating",
+    "Night sweats",
+    "Sweating with fever",
+    "Sweating with palpitations",
+    "Cold sweats"
+  ],
+  "dehydration": [
+    "Dry mouth",
+    "Low urine output",
+    "Increased thirst",
+    "Sunken eyes",
+    "Weakness from dehydration"
+  ],
+  "indigestion": [
+    "Burning indigestion",
+    "Indigestion after heavy meals",
+    "Gas and bloating",
+    "Indigestion with vomiting",
+    "Indigestion with chest burning"
+  ],
+  "headache": [
+    "Throbbing headache",
+    "Tension-type headache",
+    "Migraine with aura",
+    "Headache behind eyes",
+    "Headache with nausea"
+  ],
+  "yellowish_skin": [
+    "Mild yellowing",
+    "Deep jaundice",
+    "Yellow skin with fever",
+    "Yellowing with dark urine",
+    "Yellowing with abdominal pain"
+  ],
+  "dark_urine": [
+    "Tea-colored urine",
+    "Dark yellow urine",
+    "Dark urine with burning",
+    "Dark urine with fever",
+    "Dark urine with jaundice"
+  ],
+  "nausea": [
+    "Morning nausea",
+    "Nausea with vomiting",
+    "Persistent nausea",
+    "Nausea after meals",
+    "Nausea with dizziness"
+  ],
+  "loss_of_appetite": [
+    "Sudden appetite loss",
+    "Gradual reduction in appetite",
+    "No appetite with nausea",
+    "No appetite with weight loss",
+    "Loss of appetite with fatigue"
+  ],
+  "pain_behind_the_eyes": [
+    "Sharp eye pain",
+    "Deep throbbing eye pain",
+    "Pain with headache",
+    "Pain with light sensitivity",
+    "Pain during eye movement"
+  ],
+  "back_pain": [
+    "Lower back pain",
+    "Upper back tightness",
+    "Back pain radiating to legs",
+    "Back pain worse on bending",
+    "Back pain after long sitting"
+  ],
+  "constipation": [
+    "Hard stool",
+    "Difficulty passing stool",
+    "Infrequent bowel movements",
+    "Constipation with bloating",
+    "Constipation with pain"
+  ],
+  "abdominal_pain": [
+    "Upper abdominal pain",
+    "Lower cramping pain",
+    "Sharp stabbing pain",
+    "Pain after meals",
+    "Pain with nausea"
+  ],
+  "diarrhoea": [
+    "Watery stools",
+    "Frequent loose stools",
+    "Mucus in stool",
+    "Urgent need to defecate",
+    "Diarrhea with cramps"
+  ],
+  "mild_fever": [
+    "Low-grade fever",
+    "Fever with mild chills",
+    "Intermittent fever",
+    "Mild fever in evenings",
+    "Fever with fatigue"
+  ],
+  "yellow_urine": [
+    "Dark yellow urine",
+    "Highly concentrated urine",
+    "Yellow urine with odor",
+    "Yellow urine with burning",
+    "Yellow urine in dehydration"
+  ],
+  "yellowing_of_eyes": [
+    "Mild icterus",
+    "Deep yellow sclera",
+    "Yellow eyes with dark urine",
+    "Yellow eyes with fever",
+    "Yellow eyes with fatigue"
+  ],
+  "acute_liver_failure": [
+    "Confusion with jaundice",
+    "Severe abdominal swelling",
+    "Bleeding tendencies",
+    "Severe fatigue",
+    "Dark urine with jaundice"
+  ],
+  "fluid_overload": [
+    "Body swelling",
+    "Breathlessness when lying down",
+    "Rapid weight gain",
+    "Swelling in legs",
+    "Fluid around abdomen"
+  ],
+  "swelling_of_stomach": [
+    "Abdominal distension",
+    "Bloating sensation",
+    "Pain with swelling",
+    "Swelling after meals",
+    "Swelling with fluid retention"
+  ],
+  "swelled_lymph_nodes": [
+    "Tender lymph nodes",
+    "Non-tender swelling",
+    "Multiple swollen nodes",
+    "Swelling with fever",
+    "Neck lymph node swelling"
+  ],
+  "malaise": [
+    "General discomfort",
+    "Feeling unwell",
+    "Weakness with body aches",
+    "Malaise with fever",
+    "Persistent feeling of illness"
+  ],
+  "blurred_and_distorted_vision": [
+    "Temporary blurry vision",
+    "Distorted shapes",
+    "Difficulty focusing",
+    "Blurred vision with headache",
+    "Vision distortion when tired"
+  ],
+  "phlegm": [
+    "Thick white phlegm",
+    "Yellow phlegm",
+    "Greenish phlegm",
+    "Phlegm with cough",
+    "Phlegm with chest congestion"
+  ],
+  "throat_irritation": [
+    "Scratchy throat",
+    "Burning throat",
+    "Dry throat sensation",
+    "Throat irritation with cough",
+    "Throat irritation with swallowing pain"
+  ],
+  "redness_of_eyes": [
+    "Red irritated eyes",
+    "Patchy redness",
+    "Redness with itching",
+    "Redness with discharge",
+    "Redness with pain"
+  ],
+  "sinus_pressure": [
+    "Cheekbone pressure",
+    "Forehead heaviness",
+    "Sinus pain behind eyes",
+    "Pressure worse when bending",
+    "Pressure with runny nose"
+  ],
+  "runny_nose": [
+    "Clear watery discharge",
+    "Constant drip",
+    "Runny nose with sneezing",
+    "Runny nose with allergy",
+    "Runny nose with congestion"
+  ],
+  "congestion": [
+    "Blocked nose",
+    "Difficulty breathing through nose",
+    "Congestion worse at night",
+    "Sinus congestion",
+    "Congestion with headache"
+  ],
+  "chest_pain": [
+    "Sharp chest pain",
+    "Chest tightness",
+    "Chest pain with cough",
+    "Chest pain on breathing",
+    "Chest pain radiating to arm"
+  ],
+  "weakness_in_limbs": [
+    "Arm weakness",
+    "Leg weakness",
+    "Sudden limb weakness",
+    "Weakness after exertion",
+    "Weakness with numbness"
+  ],
+  "fast_heart_rate": [
+    "Rapid heartbeat",
+    "Heart racing with anxiety",
+    "Fast pulse at rest",
+    "Fast heartbeat with sweating",
+    "Sudden episodes of fast rate"
+  ],
+  "pain_during_bowel_movements": [
+    "Sharp rectal pain",
+    "Pain during passing stool",
+    "Pain with constipation",
+    "Pain with diarrhea",
+    "Anal pain during cramps"
+  ],
+  "pain_in_anal_region": [
+    "Burning anal pain",
+    "Pain with itching",
+    "Pain after bowel movement",
+    "Pain with swelling",
+    "Sharp anal pain episodes"
+  ],
+  "bloody_stool": [
+    "Bright red blood",
+    "Dark tarry stool",
+    "Blood mixed with stool",
+    "Blood with pain",
+    "Occasional blood drops"
+  ],
+  "irritation_in_anus": [
+    "Itchy anus",
+    "Burning irritation",
+    "Irritation with rash",
+    "Irritation after bowel movement",
+    "Irritation with swelling"
+  ],
+  "neck_pain": [
+    "Stiff neck",
+    "Pain radiating to shoulder",
+    "Pain with movement",
+    "Neck pain after sleeping wrong",
+    "Neck pain with headache"
+  ],
+  "dizziness": [
+    "Lightheadedness",
+    "Vertigo (spinning)",
+    "Dizziness on standing",
+    "Dizziness with nausea",
+    "Recurrent dizzy spells"
+  ],
+  "cramps": [
+    "Stomach cramps",
+    "Leg cramps",
+    "Menstrual cramps",
+    "Cramps with dehydration",
+    "Cramps after exercise"
+  ],
+  "bruising": [
+    "Small bruises",
+    "Large painful bruises",
+    "Bruising easily",
+    "Bruising with no injury",
+    "Bruising with swelling"
+  ],
+  "obesity": [
+    "Central obesity",
+    "High BMI",
+    "Weight gain around abdomen",
+    "Obesity with breathlessness",
+    "Obesity with fatigue"
+  ],
+  "swollen_legs": [
+    "Foot swelling",
+    "Ankle swelling",
+    "Bilateral leg swelling",
+    "Swelling worse in evening",
+    "Swelling leaving pit when pressed"
+  ],
+  "swollen_blood_vessels": [
+    "Visible veins",
+    "Enlarged veins in legs",
+    "Painful veins",
+    "Swollen veins with heat",
+    "Bulging veins after standing"
+  ],
+  "puffy_face_and_eyes": [
+    "Morning facial puffiness",
+    "Swollen eyelids",
+    "Facial swelling with allergy",
+    "Face puffiness with dehydration",
+    "Puffy eyes with crying"
+  ],
+  "enlarged_thyroid": [
+    "Neck swelling",
+    "Difficulty swallowing",
+    "Visible thyroid enlargement",
+    "Thyroid tenderness",
+    "Thyroid swelling with choking sensation"
+  ],
+  "brittle_nails": [
+    "Nail cracking",
+    "Nail breaking easily",
+    "Thin fragile nails",
+    "Peeling nails",
+    "Vertical ridges on nails"
+  ],
+  "swollen_extremeties": [
+    "Swelling of hands",
+    "Swelling of feet",
+    "Generalized limb swelling",
+    "Swelling worse after standing",
+    "Swelling with pitting"
+  ],
+  "excessive_hunger": [
+    "Sudden intense hunger",
+    "Frequent hunger episodes",
+    "Hunger despite eating",
+    "Hunger with shaking",
+    "Hunger with sweating"
+  ],
+  "extra_marital_contacts": [
+    "Multiple sexual partners",
+    "Unprotected intercourse",
+    "High-risk sexual exposure",
+    "Unknown partner history",
+    "Possible STD exposure"
+  ],
+  "drying_and_tingling_lips": [
+    "Dry cracked lips",
+    "Tingling lip sensation",
+    "Lips peeling",
+    "Burning lips sensation",
+    "Dry lips with dehydration"
+  ],
+  "slurred_speech": [
+    "Difficulty pronouncing words",
+    "Slow speech",
+    "Sudden slurring",
+    "Slurred speech with weakness",
+    "Intermittent slurring"
+  ],
+  "knee_pain": [
+    "Pain while walking",
+    "Knee swelling",
+    "Pain after climbing stairs",
+    "Knee pain with locking",
+    "Knee pain with stiffness"
+  ],
+  "hip_joint_pain": [
+    "Groin pain",
+    "Side hip pain",
+    "Pain during walking",
+    "Hip pain at night",
+    "Hip pain radiating to thigh"
+  ],
+  "muscle_weakness": [
+    "Weak grip strength",
+    "Leg weakness",
+    "Arm weakness",
+    "General muscle fatigue",
+    "Weakness after exertion"
+  ],
+  "stiff_neck": [
+    "Difficulty turning neck",
+    "Pain with neck movement",
+    "Neck stiffness in morning",
+    "Stiff neck with headache",
+    "Stiff neck with fever"
+  ],
+  "swelling_joints": [
+    "Red swollen joints",
+    "Warm tender joints",
+    "Joint swelling with stiffness",
+    "Intermittent swelling",
+    "Bilateral joint swelling"
+  ],
+  "movement_stiffness": [
+    "Difficulty starting movement",
+    "Stiffness after sitting",
+    "Stiffness in cold weather",
+    "Stiffness improving with activity",
+    "Persistent stiffness"
+  ],
+  "spinning_movements": [
+    "Room spinning sensation",
+    "Rotational vertigo",
+    "Spinning with nausea",
+    "Spinning on head movement",
+    "Intermittent spinning episodes"
+  ],
+  "loss_of_balance": [
+    "Difficulty walking straight",
+    "Unsteady movement",
+    "Balance loss with dizziness",
+    "Sudden imbalance episodes",
+    "Balance loss with weakness"
+  ],
+  "unsteadiness": [
+    "Wobbly walking",
+    "Unsteady standing",
+    "Unsteadiness with fatigue",
+    "Unsteadiness with vertigo",
+    "Intermittent unsteadiness"
+  ],
+  "weakness_of_one_body_side": [
+    "Left-sided weakness",
+    "Right-sided weakness",
+    "Weakness with slurred speech",
+    "Sudden onset weakness",
+    "Weakness with numbness"
+  ],
+  "loss_of_smell": [
+    "Partial smell loss",
+    "Complete smell loss",
+    "Smell loss after infection",
+    "Smell distortion",
+    "Sudden smell loss"
+  ],
+  "bladder_discomfort": [
+    "Pelvic pressure",
+    "Mild bladder pain",
+    "Discomfort before urination",
+    "Discomfort after urination",
+    "Bladder heaviness"
+  ],
+  "foul_smell_of _urine": [
+    "Strong ammonia odor",
+    "Foul smell with burning",
+    "Fishy urine smell",
+    "Smelly urine with fever",
+    "Persistent foul urine smell"
+  ],
+  "continuous_feel_of_urine": [
+    "Frequent urge",
+    "Urge with no output",
+    "Urge with pain",
+    "Constant bladder pressure",
+    "Uncomfortable sensation"
+  ],
+  "passage_of_gases": [
+    "Frequent gas release",
+    "Gas with bloating",
+    "Painful gas",
+    "Gas with indigestion",
+    "Excessive flatulence"
+  ],
+  "internal_itching": [
+    "Deep skin itching",
+    "Itching without rash",
+    "Itching in warm areas",
+    "Night-time internal itch",
+    "Itching with dryness"
+  ],
+  "toxic_look": [
+    "Severe illness appearance",
+    "Pale and sweaty look",
+    "Fever with altered alertness",
+    "Sunken dehydrated look",
+    "Weak toxic appearance"
+  ],
+  "depression": [
+    "Persistent sadness",
+    "Loss of interest",
+    "Sleep disturbances",
+    "Hopelessness",
+    "Low energy"
+  ],
+  "irritability": [
+    "Easily annoyed",
+    "Short temper",
+    "Irritability with stress",
+    "Mood-based irritability",
+    "Irritability with fatigue"
+  ],
+  "muscle_pain": [
+    "General muscle soreness",
+    "Pain after exertion",
+    "Deep aching pain",
+    "Pain with stiffness",
+    "Pain in multiple muscle groups"
+  ],
+  "altered_sensorium": [
+    "Confusion episodes",
+    "Reduced alertness",
+    "Disorientation",
+    "Slow response",
+    "Fluctuating mental state"
+  ],
+  "red_spots_over_body": [
+    "Flat red spots",
+    "Raised red spots",
+    "Spots with itching",
+    "Spots with fever",
+    "Spots spreading gradually"
+  ],
+  "belly_pain": [
+    "Central abdominal pain",
+    "Cramping belly pain",
+    "Pain after eating",
+    "Pain with bloating",
+    "Pain with diarrhea"
+  ],
+  "abnormal_menstruation": [
+    "Early periods",
+    "Delayed periods",
+    "Heavy bleeding",
+    "Spotting between cycles",
+    "Painful menstruation"
+  ],
+  "dischromic _patches": [
+    "Light-colored patches",
+    "Dark-colored patches",
+    "Patchy skin discoloration",
+    "Slowly spreading patches",
+    "Patches without itching"
+  ],
+  "watering_from_eyes": [
+    "Excessive tearing",
+    "Watering with itchiness",
+    "Watering with redness",
+    "Watering with pain",
+    "Watering due to allergy"
+  ],
+  "increased_appetite": [
+    "Hunger shortly after eating",
+    "High-calorie cravings",
+    "Persistent hunger",
+    "Appetite increase with stress",
+    "Appetite increase with anxiety"
+  ],
+  "polyuria": [
+    "Frequent urination",
+    "Large urine volumes",
+    "Nocturnal urination",
+    "Polyuria with thirst",
+    "Polyuria with dehydration"
+  ],
+  "family_history": [
+    "Family history of diabetes",
+    "Family history of heart disease",
+    "Family history of hypertension",
+    "Family history of thyroid issues",
+    "Family history of cancer"
+  ],
+  "mucoid_sputum": [
+    "Thick white mucus",
+    "Sticky sputum",
+    "Mucoid sputum with cough",
+    "Mucoid sputum with chest pain",
+    "Mucoid sputum with wheeze"
+  ],
+  "rusty_sputum": [
+    "Brown sputum",
+    "Rust-colored sputum",
+    "Sputum with blood traces",
+    "Rusty sputum with fever",
+    "Rusty sputum with chest congestion"
+  ],
+  "lack_of_concentration": [
+    "Difficulty focusing",
+    "Mind wandering",
+    "Poor attention span",
+    "Forgetfulness",
+    "Difficulty completing tasks"
+  ],
+  "visual_disturbances": [
+    "Flashing lights",
+    "Double vision",
+    "Blurred spots",
+    "Tunnel vision",
+    "Temporary vision loss"
+  ],
+  "receiving_blood_transfusion": [
+    "Recent blood transfusion",
+    "History of multiple transfusions",
+    "Transfusion reaction symptoms",
+    "Fever after transfusion",
+    "Fatigue after transfusion"
+  ],
+  "receiving_unsterile_injections": [
+    "Injection site pain",
+    "Redness at injection site",
+    "Swelling after injection",
+    "Fever after unsafe injection",
+    "Risk of infection exposure"
+  ],
+  "coma": [
+    "Unresponsiveness",
+    "No reaction to pain",
+    "Deep unconsciousness",
+    "No verbal response",
+    "Irregular breathing"
+  ],
+  "stomach_bleeding": [
+    "Vomiting blood",
+    "Black tarry stools",
+    "Abdominal pain with bleeding",
+    "Dizziness with bleeding",
+    "Blood in vomit"
+  ],
+  "distention_of_abdomen": [
+    "Abdominal swelling",
+    "Pressure feeling in stomach",
+    "Tight abdominal wall",
+    "Distention with pain",
+    "Distention with gas"
+  ],
+  "history_of_alcohol_consumption": [
+    "Daily alcohol intake",
+    "Weekend binge drinking",
+    "Long-term alcohol use",
+    "Withdrawal symptoms",
+    "Liver-related symptoms"
+  ],
+  "blood_in_sputum": [
+    "Bright red blood in sputum",
+    "Blood-streaked sputum",
+    "Rusty sputum",
+    "Blood with cough",
+    "Intermittent blood in mucus"
+  ],
+  "prominent_veins_on_calf": [
+    "Visible calf veins",
+    "Bulging varicose veins",
+    "Painful veins in calf",
+    "Swollen veins after standing",
+    "Calf veins with heaviness"
+  ],
+  "palpitations": [
+    "Heart fluttering",
+    "Racing heartbeat",
+    "Skipped beats",
+    "Palpitations with dizziness",
+    "Palpitations at rest"
+  ],
+  "painful_walking": [
+    "Pain on foot pressure",
+    "Pain in legs while walking",
+    "Pain after long walks",
+    "Pain with swelling",
+    "Pain with stiffness"
+  ],
+  "pus_filled_pimples": [
+    "Whitehead pimples",
+    "Painful pus bumps",
+    "Pimples with redness",
+    "Pimples with swelling",
+    "Recurrent pus-filled pimples"
+  ],
+  "blackheads": [
+    "Small dark skin plugs",
+    "Blackheads on nose",
+    "Blackheads on chin",
+    "Clogged pores",
+    "Blackheads with oily skin"
+  ],
+  "scurring": [
+    "Scar-like skin marks",
+    "Skin thickening",
+    "Post-pimple scarring",
+    "Darkened scar areas",
+    "Raised scar patches"
+  ],
+  "skin_peeling": [
+    "Mild peeling skin",
+    "Large peeling patches",
+    "Peeling after rash",
+    "Peeling with redness",
+    "Dry flaky peeling"
+  ],
+  "silver_like_dusting": [
+    "Silvery skin flakes",
+    "Psoriatic scaling",
+    "Dry white scales",
+    "Thick silvery patches",
+    "Persistent scaling"
+  ],
+  "small_dents_in_nails": [
+    "Nail pitting",
+    "Irregular small pits",
+    "Pits with discoloration",
+    "Pitting with brittle nails",
+    "Multiple pits on nail plate"
+  ],
+  "inflammatory_nails": [
+    "Red swollen nail folds",
+    "Pain around nails",
+    "Inflamed nail edges",
+    "Swelling with pus near nail",
+    "Nail thickening with redness"
+  ],
+  "blister": [
+    "Small fluid-filled blister",
+    "Large painful blister",
+    "Blister with clear fluid",
+    "Blister with redness",
+    "Blister due to friction"
+  ],
+  "red_sore_around_nose": [
+    "Painful red sore",
+    "Redness with crusting",
+    "Sore with swelling",
+    "Sore with pus",
+    "Irritated skin around nose"
+  ],
+  "yellow_crust_ooze": [
+    "Yellow crust formation",
+    "Crusting with oozing",
+    "Thick golden crust",
+    "Crust with redness",
+    "Sticky yellow discharge"
+  ]
+}

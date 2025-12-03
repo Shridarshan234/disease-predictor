@@ -17,7 +17,8 @@ class DoctorProfileSerializer(serializers.ModelSerializer):
     user = AppUserSerializer(read_only=True)
     class Meta:
         model = DoctorProfile
-        fields = ("id", "user", "specialization", "phone", "clinic_address")
+        # add experience so API returns it
+        fields = ("id", "user", "specialization", "phone", "clinic_address", "experience")
 
 class RegisterSerializer(serializers.Serializer):
     username = serializers.CharField()
@@ -33,6 +34,8 @@ class RegisterSerializer(serializers.Serializer):
     specialization = serializers.CharField(required=False, allow_blank=True)
     phone = serializers.CharField(required=False, allow_blank=True)
     clinic_address = serializers.CharField(required=False, allow_blank=True)
+    # NEW: optional experience for doctors
+    experience = serializers.IntegerField(required=False, allow_null=True)
 
     def create(self, validated_data):
         role = validated_data.pop("role")
@@ -40,21 +43,33 @@ class RegisterSerializer(serializers.Serializer):
         password = validated_data.pop("password")
         email = validated_data.pop("email", None)
 
+        # Pop doctor/patient-specific fields safely
+        age = validated_data.pop("age", None)
+        gender = validated_data.pop("gender", "")
+        contact = validated_data.pop("contact", "")
+        address = validated_data.pop("address", "")
+
+        specialization = validated_data.pop("specialization", "")
+        phone = validated_data.pop("phone", "")
+        clinic_address = validated_data.pop("clinic_address", "")
+        experience = validated_data.pop("experience", None)
+
         user = AppUser.objects.create_user(username=username, password=password, email=email)
         if role == "patient":
             PatientProfile.objects.create(
                 user=user,
-                age=validated_data.get("age"),
-                gender=validated_data.get("gender",""),
-                contact=validated_data.get("contact",""),
-                address=validated_data.get("address","")
+                age=age,
+                gender=gender,
+                contact=contact,
+                address=address
             )
         else:
             DoctorProfile.objects.create(
                 user=user,
-                specialization=validated_data.get("specialization",""),
-                phone=validated_data.get("phone",""),
-                clinic_address=validated_data.get("clinic_address","")
+                specialization=specialization,
+                phone=phone,
+                clinic_address=clinic_address,
+                experience=experience
             )
         return user
 

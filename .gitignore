@@ -1,0 +1,33 @@
+# virtualenv
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# env files / secrets
+.env
+*.env
+
+# Django / local
+db.sqlite3
+*.log
+
+# model artifacts and dataset (do NOT commit large binaries)
+DiseasePredictor/model.pkl
+DiseasePredictor/columns.pkl
+DiseasePredictor/label_encoder.pkl
+DiseasePredictor/Training.csv
+DiseasePredictor/last_scores.pkl
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+

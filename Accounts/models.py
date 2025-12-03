@@ -58,6 +58,8 @@ class DoctorProfile(models.Model):
     specialization = models.CharField(max_length=200, blank=True)
     phone = models.CharField(max_length=20, blank=True)
     clinic_address = models.TextField(blank=True)
+    # NEW: years of experience
+    experience = models.PositiveSmallIntegerField(null=True, blank=True, help_text="Years of experience")
 
     def __str__(self):
         return f"Doctor({self.user.username})"
