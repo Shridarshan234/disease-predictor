@@ -1,63 +1,64 @@
 # Disease Predictor
 
-**Project:** Disease Prediction Web Application (Final Year Major Project)  
-**Developed By:** Shridarshan Mishra + 2 Team members  
-**Current Status:** Backend completed (main branch)
+**Project Type:** Full-Stack Disease Prediction System (Final Year Major Project)  
+**Developed By:** Shridarshan Mishra + Team  
+**Branch:** main (Backend completed)
 
 ---
 
-## Overview
+## Project Summary
 
-Disease Predictor is a full-stack web application designed to identify the most probable disease based on a user’s symptoms. After testing multiple machine-learning algorithms, Logistic Regression proved to be the most accurate for our labeled dataset.
+Disease Predictor is a complete web-based application that analyzes user-selected symptoms and predicts the most likely disease using machine-learning techniques. After evaluating multiple models, Logistic Regression was chosen for its superior performance on the dataset.
 
-The application provides a simple, user-friendly consultation tool to help users understand potential illnesses early.
+The system is built to be straightforward, fast, and accessible to users who want a basic understanding of their health conditions.
 
-**Disclaimer:** This system provides informational predictions only and should not replace professional medical diagnosis or treatment.
+**Note:** This tool offers preliminary predictions only and should not be used as a substitute for certified medical advice or diagnosis.
 
-**Backend:** Django REST Framework, PostgreSQL  
-**Machine Learning:** scikit-learn (Logistic Regression), stored artifacts (`model.pkl`, `columns.pkl`, `label_encoder.pkl`)  
-**Frontend:** React.js + Vite
+**Technologies Used:**  
+- **Backend:** Django REST Framework, PostgreSQL  
+- **Machine Learning:** Logistic Regression (scikit-learn), model files (`model.pkl`, `columns.pkl`, `label_encoder.pkl`)  
+- **Frontend:** React.js, Vite  
 
 ---
 
-## Key Features
+## Core Features
 
-- Quick and simple disease predictions  
-- Beginner-friendly interface  
-- Secure and private (no unnecessary data storage)  
-- Anonymous use supported  
-- Admin panel for model retraining and dataset management  
-- Responsive UI for both desktop and mobile devices  
+- Instant prediction of possible diseases based on symptoms  
+- Simple and easy-to-navigate design  
+- No sensitive user data stored unnecessarily  
+- Option to use the system without revealing your identity  
+- Admin dashboard for dataset upload and model retraining  
+- Fully responsive layout for mobile, tablet, and desktop  
 
 ---
 
 ## Frontend (React.js)
 
-The frontend is built using React + Vite with a clean and responsive interface.
+The frontend is developed using React with Vite for fast builds and optimized performance. The UI focuses on clarity, speed, and accessibility.
 
-### What Users Can Do
+### User Capabilities
 
-- Register, log in, and access personalized features  
-- Select symptoms using a fast and searchable interface  
-- Receive instant disease predictions  
-- Admins can upload CSV data or retrain the ML model  
-- Navigate through an intuitive and modern UI  
+- Create an account or log in to access personalized options  
+- Choose symptoms from a searchable symptom list  
+- View the predicted disease immediately  
+- Admins can upload patient CSV data or retrain the machine-learning model  
+- Smooth routing and clean interface for easy navigation  
 
-### How It Works Internally
+### Behind the Scenes
 
 **Authentication:**  
-Tokens are generated on login and included in subsequent requests.
+On successful login, the system issues a token that is attached to all API calls.
 
-**Symptom Submission:**  
-Users choose symptoms which are sent to the backend as JSON.
+**Symptom Handling:**  
+Selected symptoms are packaged into a JSON request and forwarded to the prediction API.
 
-**Prediction:**  
-The machine learning model returns the most probable disease.
+**Prediction Engine:**  
+The trained machine-learning model processes the symptoms and returns the most probable disease.
 
-**Admin Tools:**  
-Admins can retrain the model or upload datasets.
+**Admin Operations:**  
+Dataset uploads and retraining endpoints are reserved for admin accounts.
 
-### Run the Frontend Locally
+### Running the Frontend Locally
 
 ```bash
 cd frontend
