@@ -2,7 +2,7 @@
 
 **Project:** Disease Prediction Application (Final year major project)  
 **Team:** Aryan Rawtani + 2 members  
-**Status:** Backend ready (`ready/demo-backend` branch)
+**Status:** Backend ready (`main` branch)
 
 ---
 
